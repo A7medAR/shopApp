@@ -3,9 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:untitled/shared/cubit/states.dart';
 import 'package:untitled/shared/network/local/cahce_helper.dart';
-import '../../modules/archived_tasks/archived_tasks_screen.dart';
-import '../../modules/done_tasks/done_tasks_screen.dart';
-import '../../modules/new_tasks/new_tasks_screen.dart';
+
 
 class AppCubit extends Cubit<AppStates>
 {
@@ -39,11 +37,6 @@ static AppCubit get(context)=> BlocProvider.of(context);
 
   }
   }
-  List<Widget>screens=[
-    NewTasksScreen() ,
-    DoneTasksScreen() ,
-    AchivedTasksScreen() ,
-  ];
   List<String>titles=[
     'New Tasks',
     'Done Tasks',
