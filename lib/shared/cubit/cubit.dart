@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:untitled/layout/shop_app/shared/cubit/states.dart';
-import 'package:untitled/layout/shop_app/shared/network/local/cahce_helper.dart';
-import '../../../../modules/archived_tasks/archived_tasks_screen.dart';
-import '../../../../modules/done_tasks/done_tasks_screen.dart';
-import '../../../../modules/new_tasks/new_tasks_screen.dart';
+import 'package:untitled/shared/cubit/states.dart';
+import 'package:untitled/shared/network/local/cahce_helper.dart';
+import '../../modules/archived_tasks/archived_tasks_screen.dart';
+import '../../modules/done_tasks/done_tasks_screen.dart';
+import '../../modules/new_tasks/new_tasks_screen.dart';
 
 class AppCubit extends Cubit<AppStates>
 {

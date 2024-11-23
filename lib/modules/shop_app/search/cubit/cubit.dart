@@ -1,9 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:untitled/layout/shop_app/shared/network/end_points.dart';
-import 'package:untitled/layout/shop_app/shared/network/remote/dio_helper.dart';
+import 'package:untitled/shared/network/end_points.dart';
 import 'package:untitled/models/shop_app/search_model.dart';
 import 'package:untitled/modules/shop_app/search/cubit/states.dart';
 import 'package:untitled/shared/components/constants.dart';
+
+import '../../../../shared/network/remote/dio_helper.dart';
 
 class SearchCubit extends Cubit<SearchStates>
 {

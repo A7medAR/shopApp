@@ -4,7 +4,8 @@ import 'package:untitled/layout/news_app/cubit/states.dart';
 import 'package:untitled/modules/business/business_screen.dart';
 import 'package:untitled/modules/science/science_screen.dart';
 import 'package:untitled/modules/sports/sports_screen.dart';
-import '../../shop_app/shared/network/remote/dio_helper.dart';
+
+import '../../../shared/network/remote/dio_helper.dart';
 
 
 class NewsCubit extends Cubit<NewsStates>

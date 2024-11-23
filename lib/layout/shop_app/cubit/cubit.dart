@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled/layout/shop_app/cubit/states.dart';
-import 'package:untitled/layout/shop_app/shared/network/end_points.dart';
-import 'package:untitled/layout/shop_app/shared/network/remote/dio_helper.dart';
+import 'package:untitled/shared/network/end_points.dart';
 import 'package:untitled/models/shop_app/categories_model.dart';
 import 'package:untitled/models/shop_app/change_favorites_model.dart';
 import 'package:untitled/models/shop_app/favorites_model.dart';
@@ -13,6 +12,8 @@ import 'package:untitled/modules/shop_app/favorites/favorites_screen.dart';
 import 'package:untitled/modules/shop_app/products/products_screen.dart';
 import 'package:untitled/modules/shop_app/settings/settings_screen.dart';
 import 'package:untitled/shared/components/constants.dart';
+
+import '../../../shared/network/remote/dio_helper.dart';
 
 
 class ShopCubit extends Cubit<ShopStates> {

@@ -6,11 +6,10 @@ class BmiCubit extends Cubit<BmiStates>
 {
   BmiCubit():super( BmiInitialState());
   static BmiCubit get(context)=> BlocProvider.of(context);
-  bool isMale = true;
   double height =120;
   int weight=40;
   int age=20;
-
+  bool isMale = true;
   void changeMale({required bool male})
   {
     isMale = male;

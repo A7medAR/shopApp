@@ -3,7 +3,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:icon_broken/icon_broken.dart';
 import 'package:untitled/layout/shop_app/cubit/cubit.dart';
 import 'package:untitled/modules/webView/web_view_screen.dart';
-import 'package:untitled/layout/shop_app/shared/cubit/cubit.dart';
+import 'package:untitled/shared/cubit/cubit.dart';
 
 Widget defaultButton({
    double width=double.infinity,

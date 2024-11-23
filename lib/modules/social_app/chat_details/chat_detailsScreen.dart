@@ -57,6 +57,7 @@ var formKey=GlobalKey<FormState>();
                           child: ListView.separated(
                             shrinkWrap: true,
                             physics: NeverScrollableScrollPhysics(),
+                              reverse: true,
                               itemBuilder: (context,index)
                               {
                                 var message=SocialCubit.get(context).messages[index];

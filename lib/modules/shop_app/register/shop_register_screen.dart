@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:untitled/layout/shop_app/shared/network/local/cahce_helper.dart';
+import 'package:untitled/shared/network/local/cahce_helper.dart';
 import 'package:untitled/layout/shop_app/shop_layout.dart';
 import 'package:untitled/modules/shop_app/login/cubit/cubit.dart';
 import 'package:untitled/modules/shop_app/register/cubit/cubit.dart';
